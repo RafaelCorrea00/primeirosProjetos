@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Balão de Chat*/
+.baloon{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #F2F3F5;
+    border-radius: 50%;
+}
+/*Balão de Chat*/
+
+/*Aqui começa o Cabeçalho*/
+@font-face {
+    font-family: Righteous; /*fonte do h1*/
+    src: url("./fonts/Righteous/Righteous-Regular.ttf");
+}
+
+.container{
+    max-width:1000px; /*cabeçalho*/
+    margin:auto;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+h1{
+    font-family: Righteous;
+    letter-spacing: 5px;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+.section{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.subtitle{
+    padding: 25px;
+    max-width:1000px;
+    background-color: #FFFFFF;
+    border: 2px solid #F2F3F5;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.backgroundIMG{
+    background-image: url("./images/mike-benna-WHHY-iBp3aI-unsplash.jpg");
+    background-size: cover;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.boxContainer{
+    max-width: 250px;
+    background-color: #FFFFFFBB;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: justify;
+
+}
+
+.boxPhotos{
+    height: 100%;
+    max-width:1000px;
+    background-color: #F2F3F5;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.photos{
+    text-align: center;
+}
+
+.plan{
+    height: 100%;
+    max-width:1000px;
+    background-color: #FFFFFF;
+    border: 2px solid #F2F3F5;
+    margin: auto;
+    box-sizing: border-box;
+    padding:50px;
+}
+
+.planIMG{
+    text-align: center;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+/*Aqui começa o Rodapé*/
+.footer{
+    height: 100%;
+    max-width:1000px;
+    background-color: #F2F3F5;
+    margin: auto;
+    box-sizing: border-box;
+    padding:50px;
+    
+}
+
+.phone{
+    list-style-image: url("./images/phone_icon.png");
+    padding-bottom:10px;
+    
+}
+
+.mail{
+    list-style-image: url("./images/mail_icon.png");
+    padding-bottom:10px;
+}
+
+.face{
+    list-style-image: url("./images/face_icon.png");
+    padding-bottom:10px;
+}
+
+.insta{
+    list-style-image: url("./images/insta_icon.png");
+    padding-bottom:10px;
+}
+/*Aqui termina o Rodapé*/
+
+/*V.1.0*/
+/*by Rafael Corrêa*/

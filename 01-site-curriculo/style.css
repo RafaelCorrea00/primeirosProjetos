@@ -1,0 +1,297 @@
+.caixa1{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	background-color: seagreen;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+
+h1{
+	color: whitesmoke;
+	text-align: center
+}
+
+
+.circulo{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+	background-color: lightgray;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50%;
+	background-image: url("./imagens/igor.jpg");
+	background-size: cover;
+}
+
+.contato{
+	float: right;
+	margin: 5px;
+	list-style-position: inside;
+}
+
+.cidade{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50px;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-right: 25px;
+	list-style-image: url("./imagens/world_icon.png");
+	font-size: 20px;
+	background-color: whitesmoke;
+}
+
+.tel{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50px;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-right: 25px;
+	list-style-image: url("./imagens/whatsapp_icon.png");
+	font-size: 20px;
+	background-color: whitesmoke;
+}
+
+.email{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50px;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-right: 25px;
+	list-style-image: url("./imagens/email_icon.png");
+	font-size: 20px;
+	background-color: whitesmoke;
+}
+
+/*A PARTE DOS OBJETIVOS COMEÇA AQUI*/
+
+.caixa2{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: floralwhite;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+
+.objetivo{
+	margin-left: 25px;
+	font-size: 18px;
+}
+
+.circuloYT{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-right: 25px;
+	background-color: lightgray;
+	background-image: url("./imagens/youtube_logo.png");
+	background-size: cover;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50%;
+}
+
+/*A PARTE DA FORMAÇÃO COMEÇA AQUI*/
+
+.caixa3{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: floralwhite;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+
+.formação{
+	margin-left: 25px;
+	font-size: 18px;
+}
+
+.circuloUNI{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-right: 25px;	
+	background-color: lightgray;
+	background-image: url("./imagens/universidade_logo.png");
+	background-size: cover;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50%;
+}
+
+/*A PARTE DA EXPERIÊNCIA COMEÇA AQUI*/
+
+.caixa4{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: floralwhite;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+
+.experiencia{
+	margin-left: 25px;
+	font-size: 18px;
+}
+
+.circuloPROG{
+	float: right;	
+	width: 200px;
+	height: 200px;
+	margin-right: 25px;	
+	background-color: lightgray;
+	background-image: url("./imagens/prog_br_logo.jpg");
+	background-size: cover;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50%;
+}
+
+.botao{
+	margin-top: 200px;
+}
+
+.site{
+	margin-left: 25px;
+	text-decoration: none;
+	color: black;
+	background-color: orange;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+.site:hover{
+	background-color: black;
+	color: orange;
+}
+
+/*A PARTE DAS HABILIDADES COMEÇA AQUI*/
+
+.caixa5{
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: floralwhite;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+
+.habilidades{
+	margin-left: 25px;
+	font-size: 18px;
+}
+
+.lista_habilidades{
+	list-style-type: none;
+}
+
+.js{
+	list-style-image: url("./imagens/js_logo.png");
+}
+
+.html{
+	list-style-image: url("./imagens/html_logo.png");
+}
+
+.css{
+	list-style-image: url("./imagens/css_logo.png");
+}
+
+.swift{
+	list-style-image: url("./imagens/swift_logo.png");
+}
+
+.java{
+	list-style-image: url("./imagens/java_logo.png");
+}
+
+.c{
+	list-style-image: url("./imagens/c_logo.png");
+}
+
+/*A PARTE DAS REDES SOCIAIS COMEÇA AQUI*/
+
+.caixa6{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: floralwhite;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+
+.redes_sociais{
+	margin-left: 25px;
+	font-size: 18px;
+}
+
+.redes{
+	list-style-type: none;
+	margin-top: 90px;
+}
+
+.insta{
+	list-style-image: url(./imagens/insta_logo.png);
+
+}
+
+.i{
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+}
+
+.twitter{
+	list-style-image: url(./imagens/twitter_logo.png);
+}
+
+.tw{
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+}
+
+.youtube{
+	list-style-image: url(./imagens/yt_logo.png);
+}
+
+.yt{
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+}

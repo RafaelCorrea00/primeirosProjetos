@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gerador de Treinos</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Gerador de Treinos</h1>
+        <table>
+            <tr>
+                <td><img id="imgPeito" src="./images/treino-peito.jpg" alt="Treino de Peito"></td>
+                <td><img id="imgCostas" src="./images/treino-costas.jpg" alt="Treino de Costas"></td>
+                <td><img id="imgPernas" src="./images/treino-perna.jpg" alt="Treino de Pernas"></td>
+                <td><img id="imgAbdomen" src="./images/treino-abdominal.jpg" alt="Treino de Abdômen"></td>
+            </tr>
+            <tr>
+                <td id="peito">Peito</td>
+                <td id="costas">Costas</td>
+                <td id="pernas">Pernas</td>
+                <td id="abdomen">Abdominais</td>
+            </tr>
+            <tr>
+                <td id="rptPeito">Repetições</td>
+                <td id="rptCostas">Repetições</td>
+                <td id="rptPernas">Repetições</td>
+                <td id="rptAbdomen">Repetições</td>
+            </tr>
+        </table>
+        <button onclick="repeticao(); treinoPeito(); treinoCostas(); treinoPernas(); treinoAbdomen()">Gerar Treino</button>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/c/HenriqueMerloto" target="_blank"><img src="./images/yt-logo.png" alt="Youtube"></a>
+                <a href="https://www.instagram.com/henriquemerloto/" target="_blank"><img src="./images/insta-logo.png" alt="Instagram"></a>
+            </li>
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

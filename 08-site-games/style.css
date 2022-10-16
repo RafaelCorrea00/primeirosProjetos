@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "VT";
+    src: url("./fonts/VT323/VT323-Regular.ttf");
+}
+
+/*Aqui começa o Cabeçalho*/
+body{
+    background-image: url("./images/background.jpg");
+    background-attachment: fixed;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    background-color: black;
+    text-align: right;
+    padding: 10px;
+    border-bottom: greenyellow solid 5px;
+    box-sizing: border-box;
+}
+
+h1{
+    float: left;
+    color: greenyellow;
+    letter-spacing: 2px;
+    font-family: "VT";
+    font-size: 40px;
+}
+
+input{
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: greenyellow;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border: greenyellow solid 5px;
+}
+
+.button:hover{
+    background-color: black;
+    color: greenyellow;
+    border: greenyellow solid 5px;
+}
+
+.button:active{
+    background-color: orangered;
+    color: black;
+    border: orangered solid 5px;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+section{
+    max-width: 1000px;
+    margin: auto;
+    background-color: black;
+}
+
+h2{
+    color: greenyellow;
+    padding: 25px;
+    font-family: "VT";
+    font-size: 50px;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    border: rgba(255, 255, 255, 0.4) solid 1px;
+    border-radius: 5px;
+}
+
+section li{
+    color: white;
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "VT";
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.colorName{
+    color: orangered;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+/*Aqui começa o Rodapé*/
+footer{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.socialMedia{
+    float: left;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.up{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+    border: greenyellow solid 5px;
+    background-color: greenyellow;
+    list-style-type: none;
+    float: right;
+}
+
+.up:hover{
+    background-color: black;
+    border: greenyellow solid 5px;
+}
+
+.up:active{
+    background-color: orangered;
+    border: orangered solid 5px;
+}
+/*Aqui termina o Rodapé*/
+
+@media screen and (max-width: 900px) {
+    header{
+        position: static;
+    }
+
+    section li{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:780px){
+    h1{
+        float: none;
+        text-align: center;
+    }
+
+    input{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        padding: 15px;
+        width: 60%;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"]{
+        margin: auto;
+        margin-top: 15px;       
+    }
+
+    section img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:350px){
+    section img{
+        width: 100%;
+    }
+}
+/*V.1.0*/
+/*by Rafael Corrêa*/

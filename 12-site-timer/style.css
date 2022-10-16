@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "digital";
+    src: url("/fonts/digital-7/digital-7\ \(mono\).ttf");
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+
+#dv1{
+    display: inline-block;
+}
+
+li{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 250px;
+    list-style-type: none;
+    font-family: "digital";
+    font-size: 50px;
+    box-sizing: border-box;
+    color: lightgreen;
+}
+
+input{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "digital", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: lightgreen;
+    background-color: black;
+    border: lightseagreen solid 2px;
+    border-radius: 5px;
+}
+
+input:hover{
+    color: lightcoral;
+    background-color: darkslategrey;
+}

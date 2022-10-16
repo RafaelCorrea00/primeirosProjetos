@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Audio Player</title>
+</head>
+<body>
+
+    <div class="container">
+        <img class="banda" src="./assets/images/05_orappa.jpg">
+            
+        <audio id="audio1" controls>
+            <source src="./assets/audios/05_lado_b_lado_a.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="controle">
+            <div id="btn_pause"><img class="btn" onclick="pause()" src="./assets/images/pause_button.png"></div>
+            <a href="./music_04.html"><img class="btn" src="./assets/images/skip_back_button.png"></a>
+            <img class="btn" onclick="play()" src="./assets/images/play_button.png">
+            <a href="./index.html"><img class="btn" src="./assets/images/skip_forward_button.png"></a>
+            <div id="btn_stop"><img class="btn" onclick="stop()" src="./assets/images/stop_button.png"></div>
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

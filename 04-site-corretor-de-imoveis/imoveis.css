@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui começa o Cabeçalho*/
+header{
+    overflow: hidden;
+    background-color: #004291;
+    color: rgb(255, 255, 0);
+    padding: 15px;
+    margin-bottom: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+}
+
+
+.menu{
+    float: right;
+}
+
+li{
+    float: left;
+    margin-right: 25px;
+}
+
+.links:hover{
+    color:rgb(0, 255, 255);
+    font-size: 16.5px;
+}
+
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+section{
+    background-image: url("./images/img_section.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    margin-bottom: 1px;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 0);
+    text-shadow: black 2px 2px 2px;    
+}
+
+.subtitle{
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    text-shadow: black 2px 2px 2px; 
+}
+
+.formContainer{
+    max-width: 250px;
+    background-color: #ffffffbb;
+    padding: 25px;
+    margin: auto;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    color: rgb(255, 255, 0);
+    background-color: #004291;
+    border: #004291 solid 1px;
+    font-weight: bold;
+}
+
+.bottom:hover{
+    color: #004291;
+    background-color:rgb(255, 255, 0);
+    border: #004291 solid 1px;
+    font-weight: bold;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+/*Aqui começa o Radapé*/
+footer{
+    background-image: url("./images/img_background_footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+h2{
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    margin-bottom: 15px; 
+}
+
+.picture{
+    width: 500px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+h3{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-shadow: black 2px 2px 2px; 
+}
+
+.description{
+    margin: auto;
+    width: 500px;
+    color: white;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contacts{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+
+.chat{
+    position: fixed;
+    background-image: url("./images/chat_logo.png");
+    background-size: cover;
+    background-color: #20212133;
+    text-align: center;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #202121;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+    bottom: 5px;
+    left: 5px;
+}
+
+.chat:hover{
+    background-color: rgba(255, 255, 0, 0.3);
+}
+/*Aquio termina o Rodapé*/

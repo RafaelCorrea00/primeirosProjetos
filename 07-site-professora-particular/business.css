@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui comça o Cabeçalho*/
+header{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #008040;
+    color: #ffffb3;
+    text-shadow: black 2px 2px 2px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;  
+}
+
+.board{
+    margin: auto;
+    padding: 25px;
+    background-color: #003333aa;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.picture01{
+    width: 500px;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+section{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: #f0f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: rgba(0, 0, 0, 0.5) solid 1px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+section li{
+    float: left;
+    color: black;
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+section li:hover{
+    font-size: 26px;
+    color: royalblue;
+}
+
+.back_button{
+    max-width: 1000px;
+    margin: auto;
+    border-top: rgba(0, 0, 0, 0.5) solid 1px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.back_button li{
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    list-style-image: url("./images/back_icon.png");
+    color: #003333cc;
+    font-size: 25px;
+}
+
+.back_button li:hover{
+    font-size: 26px;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+/*Aqui começa o Rodapé*/
+footer{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f0f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: rgba(0, 0, 0, 0.5) solid 1px;
+}
+
+footer li{
+    float: left;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+.help{
+    float: right;
+    margin-right: 50px;
+}
+/*Aqui termina o Rodapé*/
+
+/*Aqui começam os Ajustes Mobile*/
+@media screen and (max-width: 540px) {
+    .picture01{
+        width: 250px;
+    }
+
+    section{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    section li{
+        display: inline-block;
+        float: none;
+        margin-bottom: 10px;
+        background-color: #008040aa;
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+/*Aqui terminam os Ajustes Mobile*/

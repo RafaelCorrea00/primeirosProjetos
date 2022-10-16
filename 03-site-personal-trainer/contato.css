@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui começa o Cabeçalho*/
+.menu{
+    float: right;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    background-image: url("./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 125px;
+    height: 125px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+}
+
+li{
+    float: left;
+    margin-right: 25px;
+    margin-top: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #4d4d4dbb;
+    color: #e68a00;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+body{
+    background-color: black;
+}
+
+section{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.social_media{
+    position: fixed;
+    right: 10px;
+    bottom: 0%;
+}
+
+.formContainer{
+    overflow: hidden;
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    margin: auto;
+    transform: translateY(10%);
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    color: #e68a00;
+    background-color: #4d4d4d;
+    font-weight: bold;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+
+/*Aqui começa a parte Mobile*/
+@media screen and (min-width: 1200px){
+    /*Cabeçalho*/
+    li{
+        margin-bottom: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    /*Cabeçalho*/
+
+}
+
+@media screen and (max-width: 500px){
+    /*Cabeçalho*/
+    .menu{
+        float:none;
+        text-align: center;
+    }
+    
+    .logo{
+        float:none;
+        text-align: center;
+    }
+
+    li{
+        float: none;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    /*Cabeçalho*/
+
+    /*Principal*/
+    .social_media{
+        position: sticky;
+    }
+    /*Principal*/
+}
+
+@media screen and (max-width: 350px){
+    /*Cabeçalho*/
+    .menu{
+        float:none;
+        text-align: center;
+        height: 400px;
+    }
+    
+    .logo{
+        float:none;
+        text-align: center;
+    }
+
+    li{
+        float: none;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    /*Cabeçalho*/
+}
+/*Aqui termina a parte Mobile*/
+/*V.1.0*/
+/*by Rafael Correa 2022*/

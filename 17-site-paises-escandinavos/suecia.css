@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url("./assets/fonts/norse-font/Norse-KaWl.otf");
+}
+
+body{
+    background-color: #282828;
+    background-image: url("./assets/images/background-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Norse', Courier, monospace;
+
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 500px;
+    height: 650px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+img{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+table{
+    margin: auto;
+    margin-top: 25px;
+    border-spacing: 0px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+td{
+    background-color: #282828;
+    color: lightgoldenrodyellow;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+a{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#back{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid goldenrod;
+    background-color: #282828;
+    color: goldenrod;
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+@media (max-width:450px) {
+    #container{
+        width: 400px;
+    }
+
+    img{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    td{
+        padding: 8px;
+        letter-spacing: 2px;
+    }
+}

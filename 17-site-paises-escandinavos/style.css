@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url("./assets/fonts/norse-font/Norse-KaWl.otf");
+}
+
+@keyframes changeIcelandPhoto {
+    0%{
+        background-image: url("./assets/images/countries/iceland/iceland01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    33%{
+        background-image: url("./assets/images/countries/iceland/iceland02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    66%{
+        background-image: url("./assets/images/countries/iceland/iceland03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{
+        background-image: url("./assets/images/countries/iceland/iceland04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+}
+
+@keyframes changeNorwayPhoto {
+    0%{
+        background-image: url("./assets/images/countries/norway/norway01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    33%{
+        background-image: url("./assets/images/countries/norway/norway02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    66%{
+        background-image: url("./assets/images/countries/norway/norway03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{
+        background-image: url("./assets/images/countries/norway/norway04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+}
+
+@keyframes changeSwedenPhoto {
+    0%{
+        background-image: url("./assets/images/countries/sweden/sweden01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    33%{
+        background-image: url("./assets/images/countries/sweden/sweden02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    66%{
+        background-image: url("./assets/images/countries/sweden/sweden03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{
+        background-image: url("./assets/images/countries/sweden/sweden04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+}
+
+@keyframes changeDenmarkPhoto {
+    0%{
+        background-image: url("./assets/images/countries/denmark/denmark01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    33%{
+        background-image: url("./assets/images/countries/denmark/denmark02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    66%{
+        background-image: url("./assets/images/countries/denmark/denmark03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{
+        background-image: url("./assets/images/countries/denmark/denmark04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+}
+
+@keyframes changeFinlandPhoto {
+    0%{
+        background-image: url("./assets/images/countries/finland/finland01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    33%{
+        background-image: url("./assets/images/countries/finland/finland02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    66%{
+        background-image: url("./assets/images/countries/finland/finland03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{
+        background-image: url("./assets/images/countries/finland/finland04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+}
+
+body{
+    background-color: #282828;
+    background-image: url("./assets/images/background-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 1000px;
+    height: 650px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#viking{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid #282828;
+    background-color: #282828;
+    margin: auto;
+}
+
+#viking img{
+    margin-left: 100px;
+}
+
+#viking h1{
+    font-family: 'Norse', Courier, monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: gold;
+}
+
+.countries{
+    width: 300px;
+    height: 250px;
+    background-color: #282828;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+}
+
+.countries:hover{
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+
+#country1{
+    background-image: url("./assets/images/Flag_of_Iceland.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 295px;
+    height: 200px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+#country1:hover{
+    animation-name: changeIcelandPhoto;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#country2{
+    background-image: url("./assets/images/Flag_of_Norway.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 295px;
+    height: 200px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+#country2:hover{
+    animation-name: changeNorwayPhoto;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#country3{
+    background-image: url("./assets/images/Flag_of_Sweden.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 295px;
+    height: 200px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+#country3:hover{
+    animation-name: changeSwedenPhoto;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#country4{
+    background-image: url("./assets/images/Flag_of_Denmark.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 295px;
+    height: 200px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+#country4:hover{
+    animation-name: changeDenmarkPhoto;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#country5{
+    background-image: url("./assets/images/Flag_of_Finland.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 295px;
+    height: 200px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+#country5:hover{
+    animation-name: changeFinlandPhoto;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+p{
+    text-align: right;
+    line-height: 40px;
+    color: gold;
+    font-family: 'Norse', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+@media (max-width: 990px){
+    #container{
+        height: 900px;
+    }
+}
+
+@media (max-width: 659px) {
+    #container{
+        height: 1700px;
+    }
+}

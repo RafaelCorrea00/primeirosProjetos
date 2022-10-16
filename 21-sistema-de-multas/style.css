@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #f5f5f5;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px 2px #778899;
+}
+
+#box{
+    max-width: 500px
+}
+
+input{
+    width: 50%;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #778899;
+}
+
+button{
+    width: 50%; 
+}

@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui começa o Cabeçalho*/
+header{
+    background-color: #282A35;
+    color: #DDA306;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: #781004 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.logo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url("./images/pan_logo.png");
+    background-size: cover;
+}
+
+nav{
+    background-color: #282A35;
+    color: #DDA306;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: #781004 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+nav li{
+    list-style-position: inside;
+    list-style-type: none;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+nav li:hover{
+    color: white;
+    font-size: 21px;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa a Parte Pricipal*/
+section{
+    background-color: #282A35;
+    color: #DDA306;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: #781004 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.pictures img{
+    width: 350px;
+    border: #dda4067e solid 1px;
+    border-radius: 5px;
+}
+
+main{
+    background-color: #282A35;
+    color: #DDA306;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: #781004 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+main p{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.whats{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border: white solid 5px;
+    border-radius: 50%;
+    background-image: url("./images/whats_logo.gif");
+    background-size: cover;
+}
+
+.whats:hover{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: green solid 5px;
+}
+
+input{
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #26CC64;
+    color: white;
+    text-shadow: #282A35 1px 1px 1px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/*Aqui termina a Parte Pricipal*/
+
+/*Aqui começa o Rodapé*/
+footer{
+    background-color: #282A35;
+    color: #DDA306;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: #781004 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+article{
+    background-color: #282A35;
+    color: #DDA306;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: #781004 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#map{
+    width: 250px;
+    margin-left: 25px;
+    border: black solid 1px;
+    border-radius:  5px;
+}
+
+article a{
+    float: right;
+    margin-right: 25px;
+}
+
+.socialMedia01{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: #DDA306 solid 5px;
+    border-radius: 50%;
+    background-image: url("./images/face_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.socialMedia02{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: #DDA306 solid 5px;
+    border-radius: 50%;
+    background-image: url("./images/insta_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.socialMedia01:hover{
+    border: #781004 solid 5px;
+}
+
+.socialMedia02:hover{
+    border: #781004 solid 5px;
+}
+
+article p{
+    text-align: right;
+    margin-right: 25px;
+}
+/*Aqui termina o Rodapé*/
+
+/*Aqui começa a versão Mobile*/
+@media screen and (min-width: 500px){
+    .pictures img{
+        width: 500px;
+    }
+
+    #map{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #map{
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    article p{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+}
+/*Aqui termina a versão Mobile*/
+/*V.1.0*/
+/*by Rafael Corrêa*/

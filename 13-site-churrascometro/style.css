@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "delius";
+    src: url("./fonts/Delius_Unicase/DeliusUnicase-Regular.ttf");
+}
+
+body{
+    background-image: url("./images/bbq_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;   
+}
+
+.container{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: #660000;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.image{
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    color: lightgoldenrodyellow;
+    text-shadow: black 2px 2px 2px;
+    font-family: "delius", Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #1a0000;
+    color: lightgoldenrodyellow;
+    letter-spacing: 2px;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: lightgray;
+    color: #000000;
+}
+
+#resultado{
+    height: 100px;
+    margin-top: 10px;
+}
+
+p{
+    color:lightgoldenrodyellow;
+    text-shadow: black 2px 1px 3px;
+    font-size: 18px;
+    margin-top: 10px;
+}

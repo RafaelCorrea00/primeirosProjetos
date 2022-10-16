@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui começa o Cabeçalho*/
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #cca300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header{
+    background-color:white;
+    text-align: center;
+    color: #cca300;
+    text-shadow: black 2px 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-image: url("./images/egg_logo\(48x48\).png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+section{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d1a00;
+    margin: 50px;
+    text-align: center;
+}
+
+.tel{
+    list-style-type: none;
+    list-style-image: url("./images/whatsapp_icon.png");
+    list-style-position: inside;
+    font-size: 25px;
+}
+
+.nutrition_facts{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+/*Aqui começao Rodapé*/
+footer{
+    padding: 25px;
+    max-width: 950px;
+    margin: auto;
+    background-image: url("./images/ovos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d1a00;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid #4d1a0060 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: #cca300;
+    background-color: #4d1a00;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+h4{
+    text-align: center;
+    margin-top: 25px;
+    color: #4d1a00;
+}
+
+.button:active{
+    background-color: #cca300;
+    color: #4d1a00;
+}
+
+.socialMedia{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #cca300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.boxMedia{
+    background-color:white;
+    text-align: center;
+    color: #cca300;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: none;
+}
+/*Aqui termina o Rodapé*/
+
+/*V.1.0*/
+/*by Rafael Corrêa*/

@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes borderColor{
+    0%{
+        border-top: 3px solid #FA7268;
+        border-right: 3px solid #D84A64;
+        border-bottom: 3px solid #D84A64;
+        border-left: 3px solid #D84A64;
+        box-sizing: border-box;
+    }
+    33%{
+        border-top: 3px solid #D84A64;
+        border-right: 3px solid #FA7268;
+        border-bottom: 3px solid #D84A64;
+        border-left: 3px solid #D84A64;
+        box-sizing: border-box;
+    }
+    66%{
+        border-top: 3px solid #D84A64;
+        border-right: 3px solid #D84A64;
+        border-bottom: 3px solid #FA7268;
+        border-left: 3px solid #D84A64;
+        box-sizing: border-box;
+    }
+    100%{
+        border-top: 3px solid #D84A64;
+        border-right: 3px solid #D84A64;
+        border-bottom: 3px solid #D84A64;
+        border-left: 3px solid #FA7268;
+        box-sizing: border-box;
+    }
+}
+
+body{
+    background-image: url("./assets/images/background-image.svg");
+    background-size: contain;
+}
+
+#container{
+    width: 500px;
+    height: 1000px;
+    background-color: #282a359f;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-areas:
+    "t1 t1 t1 t1"
+    "a1 a2 a3 a4"
+    "a5 a6 a7 a7"
+    "a8 a8 a9 a10"
+    "a11 a12 a13 a14"
+    "a15 a16 a17 a18"
+    "a19 a21 a23 a25"
+    "a20 a22 a24 a26"
+    "a27 a28 a29 a30"
+    "a31 a31 a31 a31"
+    "a32 a33 a34 a35";
+}
+
+.titles{
+    width: 95%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    color: gold;
+    text-shadow: 1px 1px 5px black;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100px;
+}
+
+.square:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    background-color: #FFFFFF;
+
+    /* Animação */
+    animation-name: borderColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+p{
+    position: relative;
+}
+
+
+span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #282a357a;
+    font-size: 15px;
+    line-height: 170px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.greeks span{
+    line-height: 80px;
+}
+
+span:hover{
+    opacity: 1;
+}
+
+/*Operadores Matemáticos*/
+#title{
+    grid-area: t1;
+}
+
+#item1{
+    grid-area: a1;
+}
+
+#item2{
+    grid-area: a2;
+}
+
+#item3{
+    grid-area: a3;
+}
+
+#item4{
+    grid-area: a4;
+}
+
+/*Moedas*/
+#item5{
+    grid-area: a5;
+}
+
+#item6{
+    grid-area: a6;
+}
+
+#item7{
+    grid-area: a7;
+    width: 200px;
+}
+
+/*Marcas Registradas*/
+#item8{
+    grid-area: a8;
+    width: 200px;
+}
+
+#item9{
+    grid-area: a9;
+}
+
+#item10{
+    grid-area: a10;
+}
+
+/* Símbolos Matemáticos */
+#item11{
+    grid-area: a11;
+}
+
+#item12{
+    grid-area: a12;
+}
+
+#item13{
+    grid-area: a13;
+}
+
+#item14{
+    grid-area: a14;
+}
+
+#item15{
+    grid-area: a15;
+}
+
+#item16{
+    grid-area: a16;
+}
+
+#item17{
+    grid-area: a17;
+}
+
+#item18{
+    grid-area: a18;
+}
+
+/* Letras Gregas */
+.greeks{
+    height: 50px;
+    line-height: 50px;
+}
+
+#item19{
+    grid-area: a19;
+}
+
+#item20{
+    grid-area: a20;
+}
+
+#item21{
+    grid-area: a21;    
+}
+
+#item22{
+    grid-area: a22;
+}
+
+#item23{
+    grid-area: a23;
+}
+
+#item24{
+    grid-area: a24;
+}
+
+#item25{
+    grid-area: a25;
+}
+
+#item26{
+    grid-area: a26;
+}
+
+/* Setas */
+#item27{
+    grid-area: a27;
+}
+
+#item28{
+    grid-area: a28;
+}
+
+#item29{
+    grid-area: a29;
+}
+
+#item30{
+    grid-area: a30;
+}
+
+#item31{
+    grid-area: a31;
+    width: 95%;
+    height: 50px;
+    line-height: 50px;
+}
+
+#item31:hover{
+    transform: scale(1.3);
+}
+
+/* Naipes das Cartas */
+#item32{
+    grid-area: a32;
+}
+
+#item33{
+    grid-area: a33;
+}
+
+#item34{
+    grid-area: a34;
+}
+
+#item35{
+    grid-area: a35;
+}

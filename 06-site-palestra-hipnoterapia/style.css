@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui começa o Cabeçalho*/
+header{
+    position: sticky;
+    top: 0px;
+}
+
+.container01{
+    max-width: 1000px;
+    margin: auto;
+    background-image: url("./images/neural_network.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.container02{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #FFF850;
+    color: #051013;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+/*Aqui termina o Cabeçalho*/
+
+/*Aqui começa o Conteúdo Principal*/
+
+section{
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    background-image: url("./images/lecture.jpg");
+    background-color: #051013;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffe6;
+    padding: 25px;
+    border-radius: 10px;
+    float: right;
+}
+
+h3{
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+p{
+    line-height: 20px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: #051013 solid 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: #FFF850;
+    background-color: #051013;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.button:hover{
+    color: #051013;
+    background-color: #00cc99;
+}
+/*Aqui termina o Conteúdo Principal*/
+
+/*Aqui começa o Rodapé*/
+
+.title{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffe6;
+    color: #051013;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.description01{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #051013;
+    color: white;
+    overflow: hidden;
+}
+
+.description01 h3{
+    margin: 25px;
+    font-size: 25px;
+}
+
+.description01 p{
+    background-color: #ffffe6bb;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.picture01{
+    float: left;
+    width: 150px;
+    margin: 25px;
+    border-radius: 5px;
+    border: #ffffe6 solid;
+}
+
+hr{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.description02{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #051013;
+    color: white;
+    overflow: hidden;
+}
+
+.description02 h3{
+    margin: 25px;
+    font-size: 25px;
+}
+
+.description02 p{
+    background-color: #ffffe6bb;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.picture02{
+    float: left;
+    width: 150px;
+    margin: 25px;
+    border-radius: 5px;
+    border: #ffffe6 solid;
+}
+
+.description03{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffe6;
+    color: #051013;
+}
+
+.description03 h4{
+    padding: 25px;
+    font-size: 25px;
+}
+
+.description03 p{
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.list{
+    margin-left: 100px;
+    padding-bottom: 25px; 
+}
+
+.list li{
+    padding-bottom: 5px;
+    list-style-type: none;
+    list-style-image: url("./images/spiral_icon\(24x24\).png");
+    list-style-position: inside;
+}
+
+.socialMedia{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.socialMedia li{
+    float: left;
+    margin-left: 100px;
+    list-style-type: none;
+    list-style-position: inside;
+    margin-bottom: 25px;
+}
+
+.telegram{
+    list-style-image: url("./images/telegram_icon.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.youtube{
+    list-style-image: url("./images/youtube_icon.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #051013;
+}
+
+a:hover{
+    color: #00cc99;
+}
+/*Aqui termina o Rodapé*/
+
+/*Aqui começam os ajustes da versão Mobile*/
+@media screen and (max-width:500px){
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+    
+    .picture01{
+        float: none;
+    }
+
+    .picture02{
+        float: none;
+    }
+
+    .description03{
+        margin-right: 5px;
+    }
+
+    .list{
+        margin-left: 25px;
+    }
+
+    .socialMedia li{
+        margin-left: 50px;
+    }
+}
+/*Aqui terminan os ajustes da versão Mobile*/
+
+/*V.1.0*/
+/*by Rafael Corrêa*/

@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #0882d9;
+    overflow-x: hidden;
+    padding-bottom: 0%;
+}
+
+@font-face {
+    font-family: "hawk";
+    src: url("./assets/fonts/Hawkeye-mLZxx.ttf");
+}
+
+.menu{
+    display: inline-block;
+    max-width: 300px;
+    background-color: #282a35;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.cover{
+    width: 200px;
+    margin: 10px;
+    margin-left: 50px;
+    border: lightslategray solid 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+    margin: 1px;
+    margin-left: 50px;
+    color: #CB5C21;
+    font-family: "hawk";
+}
+
+li:hover{
+    color: darkred;
+    background-color: black;
+    cursor: pointer;
+}
+
+.movies{
+    display: inline-block;
+    background-image: url("./assets/images/thps2_menu.jpg");
+    width: 640px;
+    height: 480px;
+    position: relative;
+    transform: translate(20%, -55%);
+    border-radius: 5px;
+    border: lightslategray solid 1px;
+}
+
+video{
+    position: relative;
+    transform: translate(50%, 50%);
+    border: black solid 2px;
+}
+
+.info{
+    position: relative;
+    transform: translate(25%,250%);
+}
+
+#artist{
+    display: inline;
+    color: #0883d9;
+    text-shadow: #CB5C21 1px 1px 1px;
+    background-color: black;
+    font-family: "hawk";
+    font-size: 25px;
+}
+
+#music{
+    display: inline;
+    color: #0883d9;
+    text-shadow: #CB5C21 1px 1px 1px;
+    background-color: black;
+    font-family: "hawk";
+    font-size: 25px;
+}
+
+/* by Rafael Correa | v.1.0 */
+/* Fazer Media Queries */

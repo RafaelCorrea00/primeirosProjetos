@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "blackOps";
+    src: url("./fonts/Black_Ops_One/BlackOpsOne-Regular.ttf");
+}
+
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#dv1{
+    width: 260px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+h1{
+    width: 250px;
+    margin: auto;
+    margin-top: 5px;
+    font-family: "blackOps", Arial, Helvetica, sans-serif;
+    color: orange;
+    text-shadow: black 2px 2px 2px;
+    border-radius: 5px;
+    border: gray solid 2px;
+}
+
+#dv2{
+    width: 260px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+input{
+    padding: 15px;
+    padding-bottom: 0px;
+    border: black solid 1px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: gray solid 2px;
+}
+
+#play{
+    background-image: url("./images/play_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: lightgreen;
+}
+
+#play:hover{
+    background-color: lightyellow;
+}
+
+#pause{
+    background-image: url("./images/pause_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: lightskyblue;
+}
+
+#pause:hover{
+    background-color: lightyellow;
+}
+
+#stop{
+    background-image: url("./images/reset_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: lightsalmon;
+}
+
+#stop:hover{
+    background-color: lightyellow;
+}
